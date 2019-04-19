@@ -1,5 +1,7 @@
 # Keypad
 
+[![Build Status](https://travis-ci.com/asmeikal/keypad.svg?branch=master)](https://travis-ci.com/asmeikal/keypad)
+
 This is a challenge.
 
 Implement a keypad utility class, with the following methods:
