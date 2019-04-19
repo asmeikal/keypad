@@ -11,13 +11,15 @@ Implement a keypad utility class, with the following methods:
 
 The keypad constructor takes the max number of integer digits and the number of decimal places.
 
+The keypad is immutable.
+
 ```typescript
-const d = new Keypad(7,2);
+let d = new Keypad(7,2);
 
 console.log(d.toString());
 // outputs "0.00"
 
-d.addDigit(1)
+d = d.addDigit(1)
  .addDigit(2)
  .addDigit(3)
  .addDigit(4)
