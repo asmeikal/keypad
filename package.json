@@ -18,6 +18,7 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "tslint -p ."
+    "lint": "tslint -p .",
+    "build": "tsc -p ."
   }
 }
