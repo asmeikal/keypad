@@ -1,0 +1,9 @@
+.idea/
+src/
+.gitignore
+.travis.yml
+jest.config.js
+prettier.config.js
+tsconfig.json
+tslint.json
+yarn.lock
