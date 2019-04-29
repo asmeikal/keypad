@@ -1,5 +1,5 @@
 {
-  "name": "keypad",
+  "name": "keypad-lib",
   "description": "A paypal-like keypad class.",
   "author": "Michelle Laurenti <asmeikal@me.com>",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
     "lib": "./build"
   },
   "main": "./build/index.js",
-  "repository": "https://github.com/asmeikal/keypad.git",
+  "repository": "https://github.com/asmeikal/keypad-lib.git",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "jest": "^24.7.1",

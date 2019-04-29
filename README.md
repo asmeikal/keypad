@@ -1,6 +1,6 @@
 # Keypad
 
-[![Build Status](https://travis-ci.com/asmeikal/keypad.svg?branch=master)](https://travis-ci.com/asmeikal/keypad)
+[![Build Status](https://travis-ci.com/asmeikal/keypad-lib.svg?branch=master)](https://travis-ci.com/asmeikal/keypad-lib)
 
 This is a challenge.
 
@@ -16,6 +16,9 @@ The keypad constructor takes the max number of integer digits and the number of 
 The keypad is immutable.
 
 ```typescript
+const Keypad = require('keypad-lib').Keypad;
+// import { Keypad } from 'keypad-lib';
+
 let d = new Keypad(7,2);
 
 console.log(d.toString());
