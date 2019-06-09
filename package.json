@@ -11,6 +11,7 @@
     "lib": "./build"
   },
   "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "repository": "https://github.com/asmeikal/keypad-lib.git",
   "devDependencies": {
     "@types/jest": "^24.0.11",
