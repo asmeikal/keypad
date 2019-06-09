@@ -2,7 +2,7 @@
   "name": "keypad-lib",
   "description": "A paypal-like keypad class.",
   "author": "Michelle Laurenti <asmeikal@me.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "engines": {
     "node": "0.10.x"
