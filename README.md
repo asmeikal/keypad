@@ -1,6 +1,7 @@
 # Keypad
 
 [![Build Status](https://travis-ci.com/asmeikal/keypad-lib.svg?branch=master)](https://travis-ci.com/asmeikal/keypad-lib)
+[![Coverage Status](https://coveralls.io/repos/github/asmeikal/keypad-lib/badge.svg?branch=master)](https://coveralls.io/github/asmeikal/keypad-lib?branch=master)
 
 This is a challenge.
 
