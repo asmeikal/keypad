@@ -11,9 +11,7 @@ cache:
   yarn: true
 
 after_success:
-  - yarn test --coverage --coverageReporters=text-lcov
-  - cat ./coverage/lcov.info | yarn run coveralls
-  - rm -rf ./coverage
+  - yarn test --coverage --coverageReporters=text-lcov | yarn run coveralls
 
 before_deploy:
   - yarn build
